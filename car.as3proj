@@ -8,10 +8,11 @@
     <movie fps="90" />
     <movie width="800" />
     <movie height="600" />
-    <movie version="10" />
+    <movie version="11" />
     <movie minorVersion="1" />
     <movie platform="Flash Player" />
     <movie background="#787878" />
+    <movie preferredSDK="C:\Program Files (x86)\FlashDevelop\Tools\flexsdk" />
   </output>
   <!-- Other classes to be compiled into your SWF -->
   <classpaths>
@@ -41,7 +42,7 @@
     <option loadExterns="" />
     <option staticLinkRSL="True" />
     <option additional="" />
-    <option compilerConstants="" />
+    <option compilerConstants="-swf-player=13" />
     <option minorVersion="" />
   </build>
   <!-- SWC Include Libraries -->

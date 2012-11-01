@@ -5,8 +5,7 @@ package model
 	import flash.utils.Timer;
 	
 	public class GameModel 
-	{
-		
+	{	
 		private static var instance:GameModel;
 		
 		var levelTimer:Timer = new Timer(1000);
@@ -40,7 +39,7 @@ package model
 		{
 			var time:int = levelTimer.currentCount;
 			levelTimer.stop;
-			return String(Math.floor(time / 60) + ":" + String( time%60 );
+			return String(Math.floor(time / 60)) + ":" + String( time%60 );
 		}
 		
 	}
