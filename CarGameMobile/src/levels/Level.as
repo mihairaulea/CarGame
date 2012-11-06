@@ -591,8 +591,8 @@ package levels
 			if (e.otherObject.userData.isVehicle && levelIsCompleted == false)
 			{
 					trace("obj is veh = bust *** 2");
-					//bustCallback.call();
-					//this.levelBusted = true;
+					bustCallback.call();
+					this.levelBusted = true;
 			}
 			}
 		}
@@ -606,8 +606,8 @@ package levels
 			if(otherObject.userData.isVehicle && levelIsCompleted == false)
 			{
 					trace("obj is veh = bust");
-					//bustCallback.call();
-					//this.levelBusted = true;
+					bustCallback.call();
+					this.levelBusted = true;
 			}
 		}
 		

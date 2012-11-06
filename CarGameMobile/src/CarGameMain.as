@@ -102,8 +102,8 @@ package
 			stage.addChild(feedbackScreen);
 
 			
-			bust.x = ScreenConstants.ActualScreenWidth * .5;
-			bust.y = ScreenConstants.ActualScreenHeight * .5;
+			bust.x = 0;
+			bust.y = ScreenConstants.ActualScreenHeight - bust.height;
 			great.x = ScreenConstants.ActualScreenWidth * .5;
 			great.y = ScreenConstants.ActualScreenHeight * .5;
 
