@@ -52,9 +52,10 @@
   <libraryPaths>
     <element path="lib\greensock.swc" />
     <element path="lib\Box2D.swc" />
-    <element path="lib\HUD.swc" />
-    <element path="lib\carsSkin.swc" />
     <element path="lib\levelArrows.swc" />
+    <element path="lib\carsSkin.swc" />
+    <element path="lib\HUDbb.swc" />
+    <element path="lib\HUD.swc" />
   </libraryPaths>
   <!-- External Libraries -->
   <externalLibraryPaths>
