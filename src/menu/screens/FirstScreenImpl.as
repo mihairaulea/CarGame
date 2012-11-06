@@ -9,6 +9,8 @@ package menu.screens
 	 import flash.display.*;
 	 import flash.events.*;
 	 
+	 import util.ScreenConstants;
+	 
 	 public class FirstScreenImpl extends ContentRequester 
 	{
 		
@@ -17,6 +19,8 @@ package menu.screens
 		public function FirstScreenImpl() 
 		{
 			addChild(firstScreen);
+			firstScreen.x = (ScreenConstants.ActualScreenWidth - firstScreen.width) * .5;
+			firstScreen.y = (ScreenConstants.ActualScreenHeight - firstScreen.height) * .5;
 			firstScreen.addEventListener(MouseEvent.CLICK, firstScreenClickedHandler);
 		}
 		
