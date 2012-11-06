@@ -74,7 +74,7 @@ package
 		
 		private var levelsModel:LevelsModel = LevelsModel.getInstance();
 				
-		var scaleFactor:Number = 0.4;
+		var scaleFactor:Number = 1;
 		
 		public function CarGameMain(stageParam:Stage)
 		{			
@@ -130,7 +130,7 @@ package
 		
 		private function showFeedbackScreen():void
 		{
-			feedbackScreen.visible = true;
+			//feedbackScreen.visible = true;
 		}
 		
 		private function setLevels():void
